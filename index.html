@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css"></link>
+    <title>Binary Tree Visualization</title>
+  </head>
+  <body>
+
+    <header>
+      
+      <div id="title">Tree Visualizer</div>
+      <label>Array:</label><br />
+      <input type="text" id="array-input" name="array" />
+      <div id="options">
+        <button onclick="treeAndArray()">Binary Tree Visualization</button>
+        <button onclick="heapify()">Max-Heap Visualization</button>
+        <button onclick="createBinarySearchTree()">Binary Search Tree Visualization</button>
+      </div>
+    </header>
+
+    <img src="hacker-5485843__340.webp" width="200" height="150">
+    <div id="blurb">
+      <div id="visual-title"></div>
+      <div id="instructions"></div>
+    </div>
+    <div id="binary-tree"></div>
+    <div id="array-visual"></div>
+
+
+    <div id="lol">
+      priyanshu mishra present <span class="lol2"><b>Binary Tree Visualization</b></span> 
+    </div>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="./js/node.js"></script>
+    <script src="./js/heap.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
